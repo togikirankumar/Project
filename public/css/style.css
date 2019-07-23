@@ -1,0 +1,459 @@
+@import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700'); 
+
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+@font-face{
+	font-family: 'Genericons';
+	src: url('../fonts/genericons-regular-webfont.woff')format('woff'),
+	url('../fonts/genericons-regular-webfont.eot')format('truetype');
+}
+
+
+/**************--First Nav bar--************/
+
+.sub-bar{
+	background: #02bcf5;
+	padding-top: 5px 0;
+	height: 40px;
+
+}
+.container{
+	width: 100%;
+  margin: auto;
+}
+
+social{
+	li/st-style: none;
+	float:left;
+	font-size: 0;
+}
+.topp
+{
+	float: left;
+}
+
+.phone{
+	float: right;
+	padding-right:20px; 
+}
+
+.number:before{
+	content: '\f453'
+}
+
+.number:before{
+	font: normal 16px 'Genericons';
+	color: #222;
+	width: 20px;
+	height: 20px;
+}
+
+
+
+
+/*---Navigtion Bar-------*/
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+#nav-bar h2
+{
+	padding-left: 10px;
+	color: 	#303030;
+}
+.navbar-brand img{
+	height: 50px;
+	padding-left: 20px;
+}
+.navbar-brand1 img{
+	height: 50px;
+	
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+#navbarNav form
+{
+	float: right;
+}
+#nav-bar ul li a:hover
+{
+	color:#007bff!important;
+}
+
+.navbar
+{
+	background: #fff;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+}
+
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+#slider
+{
+	width: 100%;
+
+}
+
+./carousel-inner
+{
+	height: 90%;
+}
+
+.carousel-item
+{
+	height: 600px;
+}
+
+/*-----------ABOUT---------------*/
+#about
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+
+#about h2
+{
+	color: #02bcf5;
+}
+
+#about button
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.about-content
+{
+	padding-top: 20px;
+}
+
+#about .col-md-66 h2
+{
+color: #ff3300;
+padding-bottom: 20px;
+}
+#about .col-md-66 
+{
+padding-left: 20px;
+}
+
+/**-----JOB OPPORTUNITIES------*/
+
+#services
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Images/job.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef!important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#services h1
+{
+	text-align: center;
+	padding-bottom: 10px;
+	color: #efefef!important;
+}
+
+#services h1::after
+{
+	content: '';
+	background:#efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+.icon img
+{
+	font-size: 40px;
+	margin:20px auto;
+	padding: 2px;
+	height: 180px;
+	width: 220px;
+	border: 1px solid #fff;
+}
+
+.services .col-md-3:hover
+{
+	background:#007bff;
+	cursor: pointer;
+	transition: 0.7s;
+}
+
+/*--------Team Memebers----------------*/
+
+#team
+{
+	padding-bottom: 20px;
+}
+#team h1
+{
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 10px;
+	color: #0a0a0f!important;
+}
+
+#team h1::after
+{
+	content: '';
+	background:#efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+.profile-pic
+{
+	margin-top: 25px;
+	margin-left: 200px;
+
+
+}
+
+.profile-pic .img-box
+{
+	opacity: 1;
+	display: block;
+	position: relative;
+	
+
+}
+
+.profile-pic .img-box img
+{
+	//filter: grayscale(1);
+	height: 300px;
+	width: 250px;
+	border:0px solid;
+	border-radius: 15px;
+}
+
+.profile-pic .img-box img:hover
+{
+	filter: grayscale(0);
+	cursor: pointer;
+}
+
+.profile-pic h2
+{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #007bff!important;
+}
+
+.profile-pic h3
+{
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 15px;
+	
+}
+
+
+/*---------------Footer----------------*/
+
+footer{
+	background: #1e1e1e;
+	color: #aaa;
+	padding-bottom: 10px;
+	height: 45px;
+
+
+}
+footer .container
+{
+	padding-top: 5px;
+}
+.floater{
+	float:right;
+
+}
+
+.floater a::after{
+	color: #aaa;
+}
+
+.floater .icon:hover a:after{
+	color: #eee;
+}
+
+footer p{
+	font-weight: 100;
+	float: left;
+	font-size: 0.9em;
+}
+
+footer span{
+	color: #eee;
+}
+
+.button{
+	font-size: 0;
+}
+
+.button:after{
+	content: '\f500';
+	color: #02bcf5 !important; 
+}
+
+.button:after{
+	font: normal 18px 'Genericons';
+	padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+/*---------------About Page----------------------*/
+
+#aboutp
+{
+	position: sticky;
+
+}
+
+.sidenav {
+  background: #eee;
+  float: left;
+  position: sticky;
+
+
+ }
+.co1
+{
+	position: sticky;
+	z-index: 20;
+}
+
+.sidenav li {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  
+}
+.sidenav a:hover {
+  color: #111;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*   */
+
+
+
+/*---------------About Page----------------------*/
+
+#about
+{
+	background-color: #F7F9FB;
+	color:#0d0d0d;
+	font-kerning: none;
+	line-height: 1.6;
+	text-align: justify;
+}
+.about-ncc img
+{
+	border-radius: 8px;
+}
+
+.aboutcontainer
+{
+	background-color: #ffffff;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+
+#about .main
+{
+	margin-left: 5px;
+	padding-bottom: 20px;
+}
+
+.about-ncc .row
+{
+padding-top: 10px;
+padding-bottom: 20px;
+}
+ .row .motto
+ {
+ 	padding-top: 50px;
+ }
+
+ .core-values
+ {
+ 	padding-left: 40px;
+ }
+
+ .pledge
+ {
+ 	padding-top: 10px;
+ }
+ pre
+ {
+ 	padding-top: 10px;
+ 	color: #555;
+
+ }
+
+
+ .song1
+ {
+ 	color: #ff9933;
+ 	text-shadow: 2px 2px 8px #ffad33;
+ }
+
+ .song2
+ {
+ 	color: #000080;
+ 	text-shadow:2px 2px 8px #000080;
+ }
+
+ .song3
+ {
+
+ 	color: #138808;
+ 	text-shadow: 2px 2px 6px #66ff33;
+ }
